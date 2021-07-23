@@ -14,6 +14,8 @@ import { postsFromFakeAPI, Post } from "../fakeAPI/posts";
 
 import GlobalStyles from "../styles/Global";
 
+import { prefix } from "../prefix";
+
 export default function Home(): JSX.Element {
   const posts: Post[] = postsFromFakeAPI;
   
@@ -153,7 +155,7 @@ export default function Home(): JSX.Element {
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${prefix}/favicon.ico`} />
       </Head>
 
       <header

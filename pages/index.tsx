@@ -149,8 +149,20 @@ export default function Home(): JSX.Element {
 
       <Head>
         <title>NextJS Pagination</title>
+        <meta name="title" content="NextJS Pagination" />
+        <meta name="description" content="A page reference to build a pagination in Reactjs apps. This app was develop using Reactjs, NextJS, and TypeScript." />
 
-        <meta name="description" content="A NextJS pagination" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mitacho.github.io/nextjs-pagination" />
+        <meta property="og:title" content="NextJS Pagination" />
+        <meta property="og:description" content="A page reference to build a pagination in Reactjs apps. This app was develop using Reactjs, NextJS, and TypeScript." />
+        <meta property="og:image" content={`${prefix}/og.png`} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://mitacho.github.io/nextjs-pagination" />
+        <meta property="twitter:title" content="NextJS Pagination" />
+        <meta property="twitter:description" content="A page reference to build a pagination in Reactjs apps. This app was develop using Reactjs, NextJS, and TypeScript." />
+        <meta property="twitter:image" content={`${prefix}/og.png`} />
+
         <meta name="keywords" content="NextJS, Pagination" />
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
